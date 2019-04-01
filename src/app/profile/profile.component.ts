@@ -1,13 +1,32 @@
-import { Component, OnInit } from '@angular/core';
+imimport { Component, OnInit } from '@angular/core';
+import {HttpClient} from '@angular/common/http';
+import {GithubsearchService} from '../profile.service'
+import {Repository} from '../repository';
+import {User} from '../user'
+
 
 @Component({
-  selector: 'app-profile',
+  selector: 'app-githubsearch',
   templateUrl: './profile.component.html',
-  styleUrls: ['./profile.component.css']
+  styleUrls: ['./profile.component.scss']
 })
-export class ProfileComponent implements OnInit {
+export class GithubsearchComponent implements OnInit {
 
-  constructor() { }
+    profile:any;
+    username: string;
+    repos:any;
+  constructor(private GithubsearchService: GithubsearchService) {
+   }
+   findProfile(){
+    
+    this.GithubsearchService.getProfileInfo(this.username).subscribe(github => {
+      this.profile = github;
+      });
+
+  
+
+
+  }  
 
   ngOnInit() {
   }
