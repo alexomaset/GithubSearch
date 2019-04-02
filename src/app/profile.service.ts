@@ -7,7 +7,7 @@ import { observable } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
-export class ProfileService {
+export class profileService {
 
   ;
   
