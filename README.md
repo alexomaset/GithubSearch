@@ -1,27 +1,39 @@
-# GithubProfile
+# Project Title
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
+GithubSearchApp
 
-## Development server
+## Getting Started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system
 
-## Code scaffolding
+###Prerequisites
+To get started on building the project one should have.
+* Have Angular-cli & Node-js installed
+* Have a web browser.
+* Any text editor
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Installing
+* Go to github.com 
+* Create a repository
+* Link it to the project folder on the desktop in this case "Github-Profile
 
-## Build
+## Development 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+  Navigate into the root folder and run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files. From there you can do all the modifications necessary.
 
-## Running unit tests
+## Built With
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* Anguar Cli
+* Code
+* Bootsrap 
+* JQUERY
+* javascript
 
-## Running end-to-end tests
+## Author 
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Alex Omaset 
 
-## Further help
+## Licence
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+The MIT License (MIT)
+Copyright (c) 2019 Alex Omaset
