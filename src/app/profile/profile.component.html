@@ -24,7 +24,7 @@
     <div>
       <p>
         <span class="label label-primary" *ngIf="profile.following"> Following {{profile.following}}  </span>
-        <span class="label label-primary"> Followers {{profile.followers}}  </span>
+        <span class="label label-primary" *ngIf="profile.followers"> Followers {{profile.followers}}  </span>
         <span class="label label-primary"> Repository {{profile.public_repos}}    </span>
         <span class="label label-info"></span>
       </p>
@@ -33,7 +33,7 @@
       <p>{{profile.hireable}}</p>
       <p>{{profile.location}}</p>
       <p><a href="{{profile.public_repos}}" target="blank" style="color:white;">Repository</a></p>
-      <p><a href="{{profile.html_url}}" class="btn btn-danger btn-xl" target="blank">view my profile</a></p>
+      <p><a href="{{profile.html_url}}" class="btn btn-danger btn-xl" target="blank">View in Github</a></p>
     </div>
   </div>
 </div>
