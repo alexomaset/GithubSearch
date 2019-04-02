@@ -23,7 +23,7 @@
   <div class="col-md-6">
     <div>
       <p>
-        <span class="label label-primary"> Following {{profile.following}}  </span>
+        <span class="label label-primary" *ngIf="profile.following"> Following {{profile.following}}  </span>
         <span class="label label-primary"> Followers {{profile.followers}}  </span>
         <span class="label label-primary"> Repository {{profile.public_repos}}    </span>
         <span class="label label-info"></span>
