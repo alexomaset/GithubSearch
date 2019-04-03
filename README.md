@@ -2,6 +2,10 @@
 
 GithubSearchApp
 
+## Author 
+
+Alex Omaset 
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system
@@ -29,14 +33,15 @@ These instructions will get you a copy of the project up and running on your loc
 * JQUERY
 * javascript
 
-## Author 
-
-Alex Omaset 
+## BDD
+|Behaviour|Input Example|Output Example|
+|---------|-------------|--------------|
+|Input a username|alexomaset|Displays repository of the given username|
 
 ## Contacts
 * alexomaset711@gmail.com
 
 ## Licence
 
-The MIT License (MIT)
-Copyright (c) 2019 Alex Omaset
+* The MIT License (MIT)
+* Copyright (c) 2019 Alex Omaset
