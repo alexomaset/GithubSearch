@@ -33,6 +33,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 Alex Omaset 
 
+## Contacts
+* alexomaset711@gmail.com
+
 ## Licence
 
 The MIT License (MIT)
